@@ -1,9 +1,5 @@
 # jobbot-sweden
 
-AI job searcher for the Swedish market. Fetches live jobs from Arbetsförmedlingen, scores them against resume with Gemini 3.1 Flash-Lite, and generates Swedish cover letters.
-
-# 🇸🇪 JobBot – AI Job Searcher for the Swedish Market
-
 JobBot is a Python tool that automates daily job hunting from Arbetsförmedlingen's official JobTech API. It uses Google Gemini AI to score jobs against your CV and generates tailored Swedish cover letters – all locally.
 
 ## ✨ Features
@@ -112,4 +108,4 @@ Feel free to fork and adapt. If you find a bug, open an issue.
 
 ## 📄 License
 
-NC-OSL
+This project is licensed under the **Non‑Commercial Open Source License (NC OSL)**. See the [LICENSE](LICENSE) file for full terms. Commercial use is not permitted without explicit permission.

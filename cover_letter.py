@@ -31,7 +31,6 @@ def generate_swedish_cover_letter(job):
     - Kring 225 ord
     - Professionell ton
     - Nämn minst två relevanta erfarenheter eller färdigheter från CV:t
-    - Lägg till i slutet: "P.S. Jag är berättigad till nystartsjobb via Arbetsförmedlingen, vilket innebär ekonomiskt stöd till arbetsgivaren vid en anställning."
     - Skriv ENDAST brevet, ingen inledning eller förklaring
     """
     response = llm.invoke(prompt)

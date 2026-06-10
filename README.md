@@ -108,4 +108,4 @@ Feel free to fork and adapt. If you find a bug, open an issue.
 
 ## 📄 License
 
-This project is licensed under the **Non‑Commercial Open Source License (NC OSL)**. See the [LICENSE](LICENSE) file for full terms. Commercial use is not permitted without explicit permission.
+MIT

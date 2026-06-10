@@ -42,11 +42,11 @@ Create a file named .env in the project root with:
 text
 GOOGLE_API_KEY=your_actual_key_here
 
-**📄 Prepare Your CV
-**Place your CV as a PDF file in the project folder and name it cv.pdf.
+**📄 Prepare Your CV**
+Place your CV as a PDF file in the project folder and name it cv.pdf.
 
-**🎯 Customise Job Search
-**By default, JobBot targets Data/IT roles (e.g., “data engineer”, “data scientist”, “ML engineer”).
+**🎯 Customise Job Search**
+By default, JobBot targets Data/IT roles (e.g., “data engineer”, “data scientist”, “ML engineer”).
 To change the search:
 
 Edit fetcher.py: modify the keywords (space‑separated job title phrases as: "project manager" "business consultant").
@@ -58,9 +58,10 @@ The occupation-field parameter (Swedish taxonomy for Data/IT) is not included by
 **By default, the bot excludes job titles containing words like “senior”, “lead”, “manager”, “expert”, “principal”, or “director”. If you want to include such roles, simply remove the unwanted words from the `exclude_words` set in `fetcher.py`.
 **
 
-**🏃 Running the Bot
-**bash
+**🏃 Running the Bot**
+bash
 python main.py
+
 The bot will:
 
 Fetch up to 100 new jobs (excluding already‑seen ones)
@@ -73,8 +74,9 @@ Log rejected jobs (with improvement tips) to rejected_log
 
 Generate an HTML report shortlist.html and open it in your browser
 
-**📊 Understanding the Output
-**shortlist.html – Contains the top 5 jobs (or fewer) with score, AI reasoning, apply link, and a tailored Swedish cover letter.
+**📊 Understanding the Output**
+
+shortlist.html – Contains the top 5 jobs (or fewer) with score, AI reasoning, apply link, and a tailored Swedish cover letter.
 
 jobs.db – SQLite database with shortlisted jobs (used for deduplication).
 
@@ -85,8 +87,9 @@ To view rejected jobs with their improvement tips, run:
 bash
 python show_rejected.py
 
-**⚙️ Configuration Options (in main.py)
-**min_score: Minimum score to be shortlisted (default 60)
+**⚙️ Configuration Options (in main.py)**
+
+min_score: Minimum score to be shortlisted (default 60)
 
 limit: Maximum number of jobs in the daily shortlist (default 5)
 

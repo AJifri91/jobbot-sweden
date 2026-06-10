@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated outputs
+shortlist*.html
+*.log
+
+# Personal data
+*resume.pdf
+*CV.pdf
+*cv.pdf
+*FlowCV*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE folders
+.vscode/
+.idea/
+
+# Extra files
+deleting_todays_shortlisted_and_rejected_reset.py

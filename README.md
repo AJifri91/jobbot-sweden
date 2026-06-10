@@ -64,6 +64,7 @@ By default, the bot excludes job titles containing words like **senior**, **lead
 ```bash
 python main.py
 ```
+**Make sure the environment is activated prior to running main.py and (venv) is shown before your WD. If not check installation section to activate it.**
 
 The bot will:
 
@@ -111,3 +112,4 @@ Feel free to fork and adapt. If you find a bug, open an issue.
 
 ## 📄 License
 
+NC-OSL

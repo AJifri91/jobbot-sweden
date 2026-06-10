@@ -22,7 +22,7 @@ JobBot is a Python tool that automates daily job hunting from Arbetsförmedlinge
 Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/yourusername/jobbot-sweden.git
+git clone https://github.com/AJifri91/jobbot-sweden.git
 cd jobbot-sweden
 python -m venv venv
 source venv/bin/activate      # Linux/Mac

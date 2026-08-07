@@ -9,7 +9,7 @@ load_dotenv()
 
 # FIX 1: Move response_mime_type to a top-level parameter to kill the UserWarning
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.1-flash-lite",
+    model="gemini-flash-lite-latest",
     temperature=0,
     max_retries=5,
     response_mime_type="application/json" 

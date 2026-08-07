@@ -8,7 +8,7 @@ load_dotenv()
 
 # Initialize the model (it will automatically use the GOOGLE_API_KEY from environment)
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.1-flash-lite",
+    model="gemini-flash-lite-latest",
     temperature=0.7,
     # Pass directly as a top-level LangChain parameter (must be lowercase)
     thinking_level="medium" 
